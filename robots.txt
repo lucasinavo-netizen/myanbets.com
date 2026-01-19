@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /assets/
+Allow: /images/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Crawl-delay: 0
+
+Sitemap: https://myanbetapp.com/sitemap.xml
+Sitemap: https://myanbetapp.com/sitemap-images.xml

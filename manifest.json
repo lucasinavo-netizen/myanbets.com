@@ -1,0 +1,57 @@
+{
+  "name": "Myanbet Casino - Myanmar Online Casino",
+  "short_name": "Myanbet",
+  "description": "Myanmar's leading online casino platform offering slots, live casino, and fishing games with trusted brands like Myan99, Myan88, B8MY, Yoma77, Myan98, and Bago888.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#8B0000",
+  "theme_color": "#8B0000",
+  "orientation": "portrait-primary",
+  "lang": "my-MM",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "./assets/logo/Myanbetapp-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/logo/Myanbetapp-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "entertainment", "casino"],
+  "screenshots": [
+    {
+      "src": "./assets/image/home-background.png",
+      "sizes": "1920x1080",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Slots Games",
+      "short_name": "Slots",
+      "description": "Play popular slot games",
+      "url": "/#slots",
+      "icons": [{ "src": "./assets/image/super ace.webp", "sizes": "192x192" }]
+    },
+    {
+      "name": "Live Casino",
+      "short_name": "Live",
+      "description": "Play live dealer games",
+      "url": "/#live-casino",
+      "icons": [{ "src": "./assets/image/myanmar-casino.webp", "sizes": "192x192" }]
+    },
+    {
+      "name": "Fishing Games",
+      "short_name": "Fishing",
+      "description": "Play fishing arcade games",
+      "url": "/#fishing",
+      "icons": [{ "src": "./assets/image/golden empire.webp", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="my-MM">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found | Myanbet Casino</title>
+  <meta name="description" content="The page you are looking for could not be found. Return to Myanbet Casino homepage.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://myanbetapp.com/404.html">
+  <link rel="icon" type="image/png" href="./assets/logo/Myanbetapp-logo.png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Noto Sans Myanmar", ui-sans-serif, system-ui, sans-serif;
+      background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      width: 100%;
+    }
+    .logo {
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 30px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.9; }
+    }
+    h1 {
+      font-size: 72px;
+      font-weight: 900;
+      color: #FFD700;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    }
+    h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      color: #fff;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #e76e01 0%, #ff8c42 100%);
+      color: #000;
+      padding: 15px 40px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 18px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(231, 110, 1, 0.4);
+    }
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(231, 110, 1, 0.6);
+    }
+    .links {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    .links a {
+      color: #FFD700;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+    .links a:hover {
+      color: #e76e01;
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 48px;
+      }
+      h2 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N7SY735788"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-N7SY735788');
+    // Track 404 error
+    gtag('event', '404_error', {
+      'page_location': window.location.href,
+      'page_path': window.location.pathname
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <img src="./assets/logo/Myanbetapp-logo.png" alt="Myanbet Casino Logo" class="logo">
+    <h1>404</h1>
+    <h2>စာမျက်နှာ မတွေ့ပါ</h2>
+    <h2>Page Not Found</h2>
+    <p>သင်ရှာဖွေနေသော စာမျက်နှာကို ရှာမတွေ့ပါ။ စာမျက်နှာကို ရွှေ့ပြောင်းထားခြင်း သို့မဟုတ် ဖျက်ပြီးသား ဖြစ်နိုင်ပါသည်။</p>
+    <p>The page you are looking for could not be found. It may have been moved or deleted.</p>
+    <a href="/" class="btn">🏠 ပင်မစာမျက်နှာသို့ ပြန်သွားရန် / Return to Homepage</a>
+    <div class="links">
+      <a href="/#games">🎰 ဂိမ်းများ / Games</a>
+      <a href="/#bonus">🎁 ဘောနပ်စ်များ / Bonuses</a>
+      <a href="/#faq">❓ မေးခွန်းများ / FAQ</a>
+      <a href="/#contact">📞 ဆက်သွယ်ရန် / Contact</a>
+    </div>
+  </div>
+</body>
+</html>
