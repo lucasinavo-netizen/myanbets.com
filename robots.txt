@@ -18,5 +18,5 @@ Allow: /
 Disallow: /admin/
 Crawl-delay: 0
 
-Sitemap: https://myanbetapp.com/sitemap.xml
-Sitemap: https://myanbetapp.com/sitemap-images.xml
+Sitemap: https://myanbets.com/sitemap.xml
+Sitemap: https://myanbets.com/sitemap-images.xml
