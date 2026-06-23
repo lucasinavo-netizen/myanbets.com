@@ -1,9 +1,12 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/go/b",
-      "destination": "https://www.rr95k.com/?ch=0cf28df51e",
-      "permanent": false
+      "destination": "/api/go?to=rr95"
+    },
+    {
+      "source": "/go/b2",
+      "destination": "/api/go?to=mm38"
     }
   ],
   "headers": [
