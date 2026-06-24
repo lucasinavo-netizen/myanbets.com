@@ -2,33 +2,22 @@
 
 Myanmar Online Casino Website Clone
 
-## Deployment on Railway
+## Deployment
 
-This project is configured to deploy on Railway.
+This is a static Vercel site. It does not need Express, Railway, or an npm install step.
 
-### Setup Instructions
+Production deploys should follow the root `DEPLOYMENT_RUNBOOK.md`: align the Git branch first, then deploy through the approved Vercel workflow.
 
-1. Install dependencies:
+For local static preview:
+
 ```bash
-npm install
+python3 -m http.server 3000
 ```
-
-2. Run locally:
-```bash
-npm start
-```
-
-3. Deploy to Railway:
-   - Connect your GitHub repository to Railway
-   - Railway will automatically detect the `railway.json` configuration
-   - The app will be deployed and available at your Railway URL
 
 ## Project Structure
 
 - `index.html` - Main HTML file
 - `index-n25-25a1.css` - Stylesheet
-- `server.js` - Express server for static file serving
 - `assets/` - Images and logos
-- `package.json` - Node.js dependencies
-- `railway.json` - Railway deployment configuration
-
+- `vercel.json` - Vercel rewrites, headers, and affiliate redirect routes
+- `api/go.js` - Serverless affiliate redirect handler
