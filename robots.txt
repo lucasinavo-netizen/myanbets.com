@@ -9,15 +9,18 @@ User-agent: Googlebot
 Allow: /
 Disallow: /admin/
 Crawl-delay: 0
+Disallow: /go/
 
 User-agent: Googlebot-Image
 Allow: /assets/
 Allow: /images/
+Disallow: /go/
 
 User-agent: Bingbot
 Allow: /
 Disallow: /admin/
 Crawl-delay: 0
 
+Disallow: /go/
 Sitemap: https://myanbets.com/sitemap.xml
 Sitemap: https://myanbets.com/sitemap-images.xml
